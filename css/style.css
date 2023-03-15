@@ -52,22 +52,60 @@
     margin-top: 50px;
 }
 
-.item :first-child {
-    width: 10px;
+.item1 {
+    margin-top: 35px;
+    width: 50px;
 }
 
 #setting {
     margin-top: 36px;
 }
 
-#center span:first-child {
-    position: absolute;
+#center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title span {
     margin-top: 50px;
-    font-size: 22px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     opacity: 2;
     margin-left: 50px;
+}
+
+.title p {
+    margin-top: 50px;
+    width: 90px;
+    height: 38px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    opacity: 2;
+    margin-right: 35px;
+    color: #E34D73;
+    border: 2px solid #E34D73;
+    padding: 10px 10px 10px 35px;
+    border-radius: 20px;
+}
+
+.cham_do {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #E34D73;
+    top: 73%;
+    right: 100px;
 }
 
 .center-1 {
@@ -78,20 +116,87 @@
     margin-top: 100px;
     margin-left: 50px;
     text-align: center;
-    padding: 6px 28px;
+    padding: 6px 35px;
     border-radius: 20px;
     color: #ffffff;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .center-1 img {
     position: absolute;
-    margin-left: -55px;
-    margin-top: -55px;
+    margin-left: -31px;
+    margin-top: -14px;
     width: 15px;
     height: 15px;
     border-radius: 30px;
     background-color: #ffffff;
+}
+
+.center-2 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 106px;
+}
+
+.center-3 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 106px;
+}
+
+
+.center-3 span {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+    font-size: 14.5px;
+}
+
+.center-3 span:nth-child(2) {
+    margin-left: 35px;
+}
+
+.people-live img {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 39px;
+    border-radius: 0 0 50px 50px;
+}
+
+.cham_xanh {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: rgb(102, 255, 102);
+    top: 22.3%;
+    left: 89px;
+}
+
+.mic img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    top: 20px;
+    left: 20px;
+}
+
+.user-name {
+    padding: 10px 6px 10px 30px;
+    background-color: #76777A;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    left: 77px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
 }
