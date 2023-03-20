@@ -18,12 +18,12 @@
 #center {
     position: relative;
     width: 910px;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 #right {
     width: 440px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #left {
@@ -289,4 +289,127 @@
     font-weight: 600;
     opacity: 2;
     margin-left: 40px;
+}
+
+.count-part {
+    position: absolute;
+    top: 68%;
+    right: 52%;
+    color: #E34D73;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: rgb(228, 188, 214);
+    padding: 4px 9px 0px 8px;
+    text-align: center;
+}
+
+
+.btn-add {
+    position: relative;
+    border: 2px solid #E34D73;
+    width: 72px;
+    height: 35px;
+    margin-top: 40px;
+    border-radius: 3px;
+    color: #E34D73;
+    font-size: 15px;
+    padding: 8px 6px 10px 27px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon2 {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 2%;
+    right: 65%;
+}
+
+.infor-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.infor-part-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username-part {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.chat-title {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    opacity: 2;
+}
+
+.chat-info-part {
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.chat-info-part span:last-child {
+    font-size: 13px;
+    margin-top: 2px;
+
+}
+
+.chat-content input {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 32px;
+    background-color: #f3f4f6;
+    border: none;
+    padding-left: none;
+    margin-left: 40px;
+    border-radius: 3px;
+}
+
+.chat-content {
+    display: flex;
+    position: relative;
+}
+
+.icon-smile {
+    position: absolute;
+    top: 25%;
+    right: 111px;
+}
+
+.chat-content img {
+    margin-left: 5px;
+    margin-top: -4.5px;
 }
